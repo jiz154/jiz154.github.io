@@ -1,0 +1,76 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #282930;
+  font-family: 'Nova Square', sans-serif;
+  background-image: url('images/newbackground.png');
+  background-size: cover;
+
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #FFF5C2;
+  font-family: 'Nova Square', sans-serif;
+}
+
+h2, h3 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #FFF5C2;
+  font-family: 'Nova Square', sans-serif;
+}
+
+p {
+  color: #FFF5C2;
+  font-size: 1rem;
+  font-family: 'Nova Square', sans-serif;
+}
+
+img {
+  width: 80%;
+  background-color: #A3B763;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.myBtn {
+  margin: 30px;
+  background-color: #FFF5C2;
+  color:#282930;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Nova Square', sans-serif;
+  font-size: 1rem;
+  padding: 0.7% 0.7%;
+}
+
+#numberOfRolls {
+  font-family: 'Nova Square', sans-serif;
+  font-size: 1rem;
+  color: #A3B763;
+  padding: 0.7% 0%;
+  text-align: center;
+}
+
+footer {
+  margin-top: 5%;
+  color: #F3F3F3;
+  text-align: center;
+  font-family: 'Nova Square', sans-serif;
+  font-size: 1rem;
+}

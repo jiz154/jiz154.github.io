@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="ulf-8">
+        <title>Jessica Zhou's Contact Information</title>
+        <link rel="stylesheet" href="demoCSS.css">
+    </head>
+    <body>
+        <h1>Contact Me</h1>
+        <h2>Jessica Zhou</h2>
+        <h3>Jiaxin Bingan's Catsitting Services</h3>
+        <p>email: jiz154@ucsd.edu</p>
+        <p>cell: (603)277-1229</p>
+        <hr>
+        <form action="mailto:jiz154@ucsd.edu" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="phone">Your phone number:</label>
+            <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <p>Do you have a cat?
+                <br>
+                <label for="yes">Yes</label><input type="checkbox" id="yes" name="cat_or_no">
+                <label for="no">No</label><input type="checkbox" id="no" name="cat_or_no">
+            </p>
+            <p>
+                <label for="catNumber">How many cats do you have? (max 5)</label>
+                <input type="number" id="catNumber" name="catNumber" min="0" max="5">
+            </p>
+            <label for="color">Select the color of your cat:</label>
+            <input type="color" id="color" name="color">
+            <br>
+            <label for="scale">On a scale of 1-10, how amicable is your cat?</label>
+            <br>
+            <input type="range" id="scale" min="1" max="10">
+            <br>
+            <p>Do you prefer sending your cat over or for me to go over?
+                <br>
+                <input type="radio" id="send" name="send_or_come"><label for="send">Send Cat Over</label>
+                <input type="radio" id="come" name="send_or_come"><label for="come">You Come to Me</label>
+            </p>
+            <p>
+                <label for="date">What date do you need catsitting?</label>
+                <input type="date" id="date" name="date">
+                <br>
+                <label for="datemin">Enter a date after 2003-03-17:</label>
+                <input type="date" id="datemin" min="2003-03-17">
+                <br>
+                <label for="datemax">Enter a date before 2023-10-24</label>
+                <input type="date" id="datemax" max="2023-10-24">
+                <br>
+                <label for="time">Enter a desired time to drop off your cat:</label>
+                <input type="time" id="time">
+            </p>
+            <p>Upload a picture of you cat:
+                <br>
+                <label for="file">Select a file:</label>
+                <input type="file" id="file" name="file">
+            </p>
+            <label for="message">Your Message to Jessica:</label>
+            <br>
+            <textarea name="yourMessage" id="message" rows="10" cols="35"></textarea>
+            <p>
+                <label>I wonder what does this button do?</label>
+                <input type="button" onclick="alert('You just bombed me!')" value="Click Me">
+            </p>
+            <p>Create an account:
+                <br>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br>
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" name="pwd"><br>
+            </p>
+            <input type="submit" value="Submit your answer to me!">
+            <input type="reset" value="Reset answers?">
+        </form>
+    </body>
+</html>

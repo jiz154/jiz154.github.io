@@ -1,0 +1,21 @@
+
+h1 {
+  font-family: Rubik Doodle Shadow;
+  color: black;
+  text-align: center;
+  padding-top: 8%;
+}
+
+h6{text-align: center;}
+
+body{background-color: #EBF3E8;}
+hr{border-color: #86A789;
+    height: 1px;
+    border-style: none;   
+    border-top-style:dotted;
+    border-width: 1px;
+    background-color: white;
+    width: 95%;
+  }
+
+.profile_pic{height: 100px; border-radius: 50%}

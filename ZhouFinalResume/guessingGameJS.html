@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COGS3: Number Guessing Game</title>
+</head>
+<body>
+    <script>
+        let randomNumber = Math.floor(Math.random() * 10) + 1;
+        let guess;
+        let numberOfTries = 3;
+
+        while (numberOfTries > 0) {
+            guess = prompt("Guess a number between 1 and 10:");
+            if (parseInt(guess) === randomNumber) {
+                alert("Yay! You guessed the right number.");
+                break;
+            } else {
+                numberOfTries--; // numberOfTries = numberOfTries - 1;
+                alert("Too bad, wrong guess. Your remaining number of tries are: " + numberOfTries);
+            }
+        }
+
+        if (numberOfTries === 0) {
+            alert("Sorry, you've run out of tries. The number was " + randomNumber + ".");
+        }
+    </script>
+</body>
+</html>

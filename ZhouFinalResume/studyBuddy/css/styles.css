@@ -1,0 +1,195 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+
+#title {
+    background-color: #0174BE;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:white;
+}
+
+h2 {
+    color:white;
+    font-family: 'Montserrat';
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+em {
+    color: #0C356A;}
+
+/* Navigation Bar*/
+.navbar {
+    padding: 0 0 4.5rem;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-item {
+    padding: 0 18px;
+    color: white;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+.z-index-section {
+    position: relative;
+}
+
+.z-index-title {
+    z-index: 1;
+}
+
+.z-index-phone {
+    z-index: 5;
+}
+
+.z-index-features {
+    z-index: 100;
+    background-color: white;
+}
+
+/* Features Section */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #FFC436;
+    /*use #FFC436 for yellow*/ 
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #0174BE;
+}
+
+/* Testimonials Section */
+#testimonials {
+    text-align: center;
+    background-color: #0174BE; 
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#press {
+    background-color: #0174BE;
+    text-align: center;
+}
+
+.pressLogo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: #FFF0CE;
+}
+
+.pricing-header {
+    color: black;
+}
+
+.pricing-column {
+    padding:3% 2%;
+}
+
+h2.pricing-h2 {
+    color: #ED7D31;
+}
+
+/* Call to Action Section CTA */
+
+#cta {
+    background-color:#0174BE;
+    color:white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/* Media Query Section */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+ }
